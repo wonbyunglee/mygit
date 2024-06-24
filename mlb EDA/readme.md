@@ -1,5 +1,6 @@
 
 # "Analysis of correlation between pitcher's ERA and other stats in MLB"   
+* Please download mlb EDA.html if you want to check some graphs and charts!
 
 ## 데이터 소개 및 출처
 
