@@ -32,3 +32,4 @@ Multilingual-BERT
 DL Models
 - Experiment with Five models.
 - Batch size : 32, epochs : 10
+- 
