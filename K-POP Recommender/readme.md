@@ -86,8 +86,95 @@ model_G = LyricsGRU(input_dim, hidden_dim, output_dim)
 criterion = nn.CrossEntropyLoss()
 optimizer = optim.Adam(model_G.parameters(), lr=0.001)
 ```
-- BiLSTM : Processing information in both directions, better understanding of context is possible. Double the hidden dimension during the conversion from hidden dimension to output dimension because it is two-way. The core concept of two-way LSTMs is to add another LSTM that runs from back to front (reverse) on the last node, rather than proceeding with learning only in the forward direction. Bi-LSTM adds a hidden layer that conveys information in the reverse direction from the general LSTM, so that at each point in time, the hidden state has the effect of having information from both the previous point in time and the future point in time.
-- Transformer : Transformers can parallelize long sequence data, showing excellent performance in natural language processing tasks (translation, summarization, Q&A, etc.) Using the Self-Attention mechanism, all words in the input sequence can learn relationships with each other, enabling parallel processing, leading to improved training speed and performance.
-- CNN : NN extracts image features from multiple convolutional and pooling layers, classify images through a fully connected layer. Learning is possible while maintaining spatial information in the image. It ia a neural network structure that is effective for learning spatial features of images.
+### BiLSTM
+- Processing information in both directions, better understanding of context is possible.
+- Double the hidden dimension during the conversion from hidden dimension to output dimension because it is two-way.
+- The core concept of two-way LSTMs is to add another LSTM that runs from back to front (reverse) on the last node, rather than proceeding with learning only in the forward direction.
+- Bi-LSTM adds a hidden layer that conveys information in the reverse direction from the general LSTM, so that at each point in time, the hidden state has the effect of having information from both the previous point in time and the future point in time.
+```
+class LyricsBiLSTM(nn.Module):
+    def __init__(self, input_dim, hidden_dim, output_dim):
+        super(LyricsBiLSTM, self).__init__()
+        self.bilstm = nn.LSTM(input_dim, hidden_dim, batch_first=True, bidirectional=True)
+        self.fc = nn.Linear(hidden_dim * 2, output_dim)  # Bidirectional LSTM : hidden_dim * 2
 
-Results
+    def forward(self, x):
+        x = x.unsqueeze(1)  # (batch_size, seq_length, input_dim)
+        lstm_out, _ = self.bilstm(x)
+        lstm_out = lstm_out[:, -1, :]
+        out = self.fc(lstm_out)
+        return out
+
+input_dim = X_train.shape[1]
+hidden_dim = 128
+output_dim = len(label_encoder.classes_)
+
+model_B = LyricsBiLSTM(input_dim, hidden_dim, output_dim)
+criterion = nn.CrossEntropyLoss()
+optimizer = optim.Adam(model_B.parameters(), lr=0.001)
+```
+
+### Transformer
+- Transformers can parallelize long sequence data, showing excellent performance in natural language processing tasks (translation, summarization, Q&A, etc.)
+- Using the Self-Attention mechanism, all words in the input sequence can learn relationships with each other, enabling parallel processing, leading to improved training speed and performance.
+```
+class LyricsTransformer(nn.Module):
+    def __init__(self, input_dim, hidden_dim, output_dim, num_heads, num_layers, dropout=0.1):
+        super(LyricsTransformer, self).__init__()
+        self.encoder_layer = nn.TransformerEncoderLayer(d_model=input_dim, nhead=num_heads, dim_feedforward=hidden_dim)
+        self.transformer_encoder = nn.TransformerEncoder(self.encoder_layer, num_layers=num_layers)
+        self.fc = nn.Linear(input_dim, output_dim)
+
+    def forward(self, x):
+        x = x.unsqueeze(1)  # (batch_size, seq_length, input_dim)
+        transformer_out = self.transformer_encoder(x)
+        out = self.fc(transformer_out[:, 0, :])
+        return out
+
+input_dim = X_train.shape[1]
+hidden_dim = 128
+output_dim = len(label_encoder.classes_)
+num_heads = 8
+num_layers = 2
+
+model_T = LyricsTransformer(input_dim, hidden_dim, output_dim, num_heads, num_layers)
+criterion = nn.CrossEntropyLoss()
+optimizer = optim.Adam(model_T.parameters(), lr=0.001)
+```
+
+### CNN
+- NN extracts image features from multiple convolutional and pooling layers, classify images through a fully connected layer.
+- Learning is possible while maintaining spatial information in the image.
+- It ia a neural network structure that is effective for learning spatial features of images.
+```
+class LyricsCNN(nn.Module):
+    def __init__(self, input_dim, num_filters, filter_sizes, output_dim):
+        super(LyricsCNN, self).__init__()
+        self.convs = nn.ModuleList([
+            nn.Conv2d(in_channels=1, out_channels=num_filters, kernel_size=(fs, 1)) for fs in filter_sizes
+        ])
+        self.fc = nn.Linear(len(filter_sizes) * num_filters, output_dim)
+
+    def forward(self, x):
+        x = x.unsqueeze(1).unsqueeze(3)  # (batch_size, 1, seq_length, input_dim, 1)
+        conved = [torch.relu(conv(x)).squeeze(3) for conv in self.convs]
+        pooled = [torch.max(conv, dim=2)[0] for conv in conved]
+        cat = torch.cat(pooled, dim=1)
+        return self.fc(cat)
+
+# Hyper-parameters
+input_dim = X_train.shape[1]
+num_filters = 100
+filter_sizes = [2, 3, 4]
+output_dim = len(label_encoder.classes_)
+
+# Loss function, optimizer
+model_C = LyricsCNN(input_dim, num_filters, filter_sizes, output_dim)
+criterion = nn.CrossEntropyLoss()
+optimizer = optim.Adam(model_C.parameters(), lr=0.001)
+```
+
+## Results
+![image](https://github.com/wonbyunglee/mygit/assets/134191686/1072cb3a-182c-42c8-bc1d-d60706d5abd9)
+- BiLSTM is the best performing model.
+- CNN and Transformer do not show significant performance.
