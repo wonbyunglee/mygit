@@ -1,7 +1,7 @@
 
-"K-POP Title Recommendation Based on Multilingual-BERT"
+# <K-POP Title Recommendation Based on Multilingual-BERT>
 
-Introduction
+## Introduction
 - The application of deep learning technology is increasingly expanding to content generation such as image, text, and music.
 - Increasing interest in the field of automatically learning music styles using different corpora and creating new music content based on them.
 " Development of a model that predicts and recommends song titles by analyzing text data of song lyrics"
@@ -12,7 +12,7 @@ In addition, methods used in lyrics generation studies are mainly limited to RNN
 
 In this project, various model tests other than RNN and GRU are performed.
 
-Dataset
+## Dataset
 
 2000-2023 Oct. Melon chart 100 dataset
 
@@ -22,20 +22,21 @@ We extract data from the original data in json format from 2010 to October 2023.
 
 It consists of 18,000 songs and 900,000 lyrics.
 
-Method
+## Method
 
-Multilingual-BERT
+### Multilingual-BERT
 - Multilingual version of the natural language processing model BERT developed by Google.
 - Due to the characteristics of Korean songs, there are many cases where Korean and English are mixed, so I choose Multilingual-BERT.
 - Embedded by line-by-line method.
 - Experiment with the presence/absence of stopwords treatment.
 
-DL Models
+### DL Models
 - Experiment with Five models.
 - Batch size : 32, epochs : 10
 - LSTM : When the input sequence becomes too long, RNN has a gradient vanishing or exploding problem when processing it. To address this, the LSTM is designed. LSTM uses two vectors to store a short-term state (ht) and a long-term state (ct), respectively. The key to LSTM is to learn what the network will remember, what to delete, and what to read in the long-term state (ct). This solves the problem of long-term dependence!
 
-# LSTM model
+### LSTM model
+
 class LyricsClassifier(nn.Module):
     def __init__(self, input_dim, hidden_dim, output_dim):
         super(LyricsClassifier, self).__init__()
@@ -48,11 +49,9 @@ class LyricsClassifier(nn.Module):
         lstm_out = lstm_out[:, -1, :]
         out = self.fc(lstm_out)
         return out
-
 input_dim = X_train.shape[1]
 hidden_dim = 128
 output_dim = len(label_encoder.classes_)
-
 model_L = LyricsClassifier(input_dim, hidden_dim, output_dim)
 criterion = nn.CrossEntropyLoss()
 optimizer = optim.Adam(model_L.parameters(), lr=0.001)
