@@ -170,6 +170,32 @@ optimizer = optim.Adam(model_C.parameters(), lr=0.001)
 ```
 
 ## Results
+
+### Model performance
 ![image](https://github.com/wonbyunglee/mygit/assets/134191686/1072cb3a-182c-42c8-bc1d-d60706d5abd9)
 - BiLSTM is the best performing model.
 - CNN and Transformer do not show significant performance.
+
+### Lyrics recommendation
+```
+def predict_song_title_L(text):
+    model_L.eval()
+    embedding = get_bert_embeddings(text).reshape(1, -1)
+    embedding = torch.tensor(embedding, dtype=torch.float32)
+    with torch.no_grad():
+        output = model_L(embedding)
+        _, predicted = torch.max(output.data, 1)
+        song_title = label_encoder.inverse_transform(predicted.cpu().numpy())
+    return song_title[0]
+```
+![스크린샷 2024-06-12 153804](https://github.com/wonbyunglee/mygit/assets/134191686/f8b7d23f-fe5b-4ff5-a980-9afe30b3e0e1)
+
+- Building a title recommendation system for new lyrics based on training data.
+- Test results recommend a title that feels similar to the lyrics.
+
+## Conclusion
+- In this study, we create a system to recommend song titles by training lyrics data.
+- Unlike previous studies on a similar topic, our experiment focuses on the language of Korean.
+- Using multilingual-BERT as the embedding model and selecting RNN-based model as the experimental model, it shows significant performance.
+- The results of this study are a step forward in the use of music and artificial intelligence.
+- It is very meaningful that Korean is the main theme.
