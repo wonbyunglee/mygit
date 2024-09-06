@@ -1,5 +1,7 @@
 # Analyzing the Correlation Between Penalty Shootout Success and Player Statistical Data
 
+* Submitted in 2024 KSII (Korean Society for Internet Information) Fall Conference
+   
 ### Abstract
 This study proposes a data-driven approach to increase the probability of success of a penalty shootout in a soccer game. If the game is not decided even after extra time, the penalty shootout, which is introduced, is an important factor in determining the outcome of the game, and it is known that the kicker's probability of goal success is usually over 70%. However, goal success is not always guaranteed, and often failures occur. In this study, based on the penalty shootout data accumulated around the world, we present a model that can classify success or failure using various statistics and information of kickers. Through techniques such as logistic regression, random forest, LightGBM, and artificial neural network, the correlation between variables and the importance of variables are measured, and the factors that have the greatest influence on the success of the shootout are derived. The results of this analysis suggest the applicability of prediction models through data analysis not only in soccer matches but also in various sports events, and will lay the foundation for contributing to improving game results.
 
