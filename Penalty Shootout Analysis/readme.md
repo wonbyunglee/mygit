@@ -80,3 +80,10 @@ Additionally, logistic regression and GLM analyze the effect of independent vari
  In this paper, by analyzing the data of the players in the penalty shootout in various models, the accuracy of up to about 67% was achieved, and through correlation analysis, key variables that influence success or failure could be identified. It is significant that there is room for performance improvement through further research and that meaningful insights have been derived in the field of sports where little research has been done.
  This study presented the possibility of data-based decision-making and laid the foundation for use in other sports, and proposed a model suitable for penalty shootout prediction by comparing various models. It also makes an important contribution in that it has the potential to develop into a practical tool that can be used by coaches and coaching staff in actual games.
  If learning and analysis are conducted using more data and advanced models through future research, the possibility of performance improvement is sufficient. This will be of practical help to the decision-making of the director and coaching staff in the field.
+
+### Reference
+[1] Horn, M., de Waal, S., & Kraak, W. “In-match penalty kick analysis of the 2009/10 to 2018/19 English Premier League competition”. International Journal of Performance Analysis in Sport, 21(1), 139-155, 2021.
+[2] Pinheiro, G. D. S., Nascimento, V. B., Dicks, M., Costa, V. T., & Lames, M. “Design and validation of an observational system for penalty kick analysis in football (OSPAF)”. Frontiers in Psychology, 12, 661179, 2021.
+[3] Pinheiro, P., & Cavique, L., “A bi-objective procedure to deliver actionable knowledge in sport services”, Expert Systems, 37(6), e12617, 2020.
+[4] Chicco, D., & Jurman, G. “The advantages of the Matthews correlation coefficient (MCC) over F1 score and accuracy in binary classification evaluation”. BMC genomics, 21, 1-13, 2020.
+[5] Rajbahadur, G. K., Wang, S., Oliva, G. A., Kamei, Y., & Hassan, A. E. “The impact of feature importance methods on the interpretation of defect classifiers”. IEEE Transactions on Software Engineering, 48(7), 2245-2261, 2021.
