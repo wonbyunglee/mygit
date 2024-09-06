@@ -37,9 +37,9 @@ Additionally, logistic regression and GLM analyze the effect of independent vari
 ### Result1 (Club)
 |     Model     |  Acc  |  F1-score  |  Roc_Auc  |  MCC   |
 |---------------|-------|------------|-----------|--------|
-| LR            | 0.591 | 0.438      | 0.615     | 0.196  |
+| LR            | 0.591 | **0.438**      | **0.615**     | **0.196**  |
 | GLM           | 0.561 | 0.401      | 0.576     | 0.131  |
-| RF            | 0.674 | 0.330      | 0.558     | 0.115  |
+| RF            | **0.674** | 0.330      | 0.558     | 0.115  |
 | LGBM          | 0.627 | 0.311      | 0.532     | 0.060  |
 | MLP           | 0.580 | 0.352      | 0.559     | 0.129  |
 
@@ -47,6 +47,7 @@ Additionally, logistic regression and GLM analyze the effect of independent vari
 |---------------|---------|-----------|----------|---------|---------|
 | LR            | -0.001  | -0.008*   | -0.017   | -0.101* |  0.795* |
 | GLM           |  0.013  | -0.466*   | -0.089   | -0.136* |  0.959* |
+(* : P < 0.05)
 
 ![image](https://github.com/user-attachments/assets/c186dfcb-8caf-4d25-8a51-061418815572)
 
@@ -54,6 +55,20 @@ Additionally, logistic regression and GLM analyze the effect of independent vari
  We evaluated the performance of five models using data. In terms of accuracy, the random forest (RF) model showed the best performance, and the logistic regression (LR) model showed the best performance in the indicators of F1-Score, ROC-AUC, and MCC. In the LR and GLM models, the 'last' variable showed a high regression coefficient, indicating a tendency to decrease the probability of success when the kick order was the last. On the other hand, the variables 'order', 'goals', and 'period' showed negative correlations with the probability of success. In addition, when looking at the feature importance, the 'goals', 'age', and 'period' variables were found to have the greatest influence on the success or failure of the penalty shootout in the random forest (RF) and LightGBM models.
 
 ### Result2 (international)
+|     Model     |  Acc   |  F1-score  |  Roc_Auc  |  MCC   |
+|---------------|--------|------------|-----------|--------|
+| LR            |  0.546 |  0.355     |  0.515    |  0.026 |
+| GLM           |  0.553 |  0.358     |  0.519    |  0.035 |
+| RF            |  **0.592** |  0.225  |  0.476    | -0.050 |
+| LGBM          |  0.559 |  0.130     |  0.425    | -0.162 |
+| MLP           |  0.471 |  **0.422** | **0.545** |  **0.089** |
+
+| Model |   Age   |   Goals   |  Squad  |  Order  |  Last   |
+|-------|---------|-----------|---------|---------|---------|
+| LR    |  0.080* |  -0.600*  | -0.008* | -0.037* |  0.767* |
+| GLM   |  0.080* |  -0.600*  | -0.008* | -0.037* |  0.767* |
+(* : P < 0.05)
+
 ![image](https://github.com/user-attachments/assets/5930b211-2f3a-4f6d-ab57-113d1f72ba39)
 
  As a result of model training on national competition data, the overall performance was lower than that learned with club competition data. This seems to be a performance degradation caused by a relatively small number of samples of national competition data, and performance improvement can be expected by collecting more data in future studies.
