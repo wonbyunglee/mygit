@@ -47,6 +47,7 @@ Additionally, logistic regression and GLM analyze the effect of independent vari
 |---------------|---------|-----------|----------|---------|---------|
 | LR            | -0.001  | -0.008*   | -0.017   | -0.101* |  0.795* |
 | GLM           |  0.013  | -0.466*   | -0.089   | -0.136* |  0.959* |
+
 (* : P < 0.05)
 
 ![image](https://github.com/user-attachments/assets/c186dfcb-8caf-4d25-8a51-061418815572)
@@ -67,6 +68,7 @@ Additionally, logistic regression and GLM analyze the effect of independent vari
 |-------|---------|-----------|---------|---------|---------|
 | LR    |  0.080* |  -0.600*  | -0.008* | -0.037* |  0.767* |
 | GLM   |  0.080* |  -0.600*  | -0.008* | -0.037* |  0.767* |
+
 (* : P < 0.05)
 
 ![image](https://github.com/user-attachments/assets/5930b211-2f3a-4f6d-ab57-113d1f72ba39)
