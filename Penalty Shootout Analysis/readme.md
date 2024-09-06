@@ -55,7 +55,7 @@ Additionally, logistic regression and GLM analyze the effect of independent vari
  In this experiment, it's the 5th League Cup and UEFA Club competition
  We evaluated the performance of five models using data. In terms of accuracy, the random forest (RF) model showed the best performance, and the logistic regression (LR) model showed the best performance in the indicators of F1-Score, ROC-AUC, and MCC. In the LR and GLM models, the 'last' variable showed a high regression coefficient, indicating a tendency to decrease the probability of success when the kick order was the last. On the other hand, the variables 'order', 'goals', and 'period' showed negative correlations with the probability of success. In addition, when looking at the feature importance, the 'goals', 'age', and 'period' variables were found to have the greatest influence on the success or failure of the penalty shootout in the random forest (RF) and LightGBM models.
 
-### Result2 (international)
+### Result2 (International)
 |     Model     |  Acc   |  F1-score  |  Roc_Auc  |  MCC   |
 |---------------|--------|------------|-----------|--------|
 | LR            |  0.546 |  0.355     |  0.515    |  0.026 |
@@ -83,7 +83,11 @@ Additionally, logistic regression and GLM analyze the effect of independent vari
 
 ### Reference
 [1] Horn, M., de Waal, S., & Kraak, W. “In-match penalty kick analysis of the 2009/10 to 2018/19 English Premier League competition”. International Journal of Performance Analysis in Sport, 21(1), 139-155, 2021.
+
 [2] Pinheiro, G. D. S., Nascimento, V. B., Dicks, M., Costa, V. T., & Lames, M. “Design and validation of an observational system for penalty kick analysis in football (OSPAF)”. Frontiers in Psychology, 12, 661179, 2021.
+
 [3] Pinheiro, P., & Cavique, L., “A bi-objective procedure to deliver actionable knowledge in sport services”, Expert Systems, 37(6), e12617, 2020.
+
 [4] Chicco, D., & Jurman, G. “The advantages of the Matthews correlation coefficient (MCC) over F1 score and accuracy in binary classification evaluation”. BMC genomics, 21, 1-13, 2020.
+
 [5] Rajbahadur, G. K., Wang, S., Oliva, G. A., Kamei, Y., & Hassan, A. E. “The impact of feature importance methods on the interpretation of defect classifiers”. IEEE Transactions on Software Engineering, 48(7), 2245-2261, 2021.
