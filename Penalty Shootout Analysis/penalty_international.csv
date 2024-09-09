@@ -1,0 +1,507 @@
+name,season,team,player,score,position,age,squad,goals,order,last
+World Cup,2014,Costa Rica vs Greece,Celso Borges,o,mf,26,73,15,1,0
+,,,Konstantinos Mitroglou,o,fw,26,43,8,1,0
+,,,Bryan Ruiz,o,mf,29,70,15,2,0
+,,,Lazaros Christodoulopoulos,o,mf,28,28,1,2,0
+,,,Ginacarlo gonzalez,o,df,26,45,2,3,0
+,,,Jose Cholevas,o,df,30,28,1,3,0
+,,,Joel Campbell,o,fw,22,40,10,4,0
+,,,Theofanis Gekas,x,fw,34,83,24,4,0
+,,,Michael Umana,o,df,32,101,1,5,1
+,,Brazil vs Chile,David Luiz,o,df,27,52,2,1,0
+,,,Mauricio Pinilla,x,fw,30,36,6,1,0
+,,,Willian,x,fw,26,14,2,2,0
+,,,Alexis Sanchez,x,fw,26,72,24,2,0
+,,,Marcelo,o,df,26,49,4,3,0
+,,,Charles Aranguiz,o,mf,25,33,3,3,0
+,,,Hulk,x,fw,28,43,9,4,0
+,,,Marcelo Diaz,o,mf,28,28,1,4,0
+,,,Neymar,o,fw,22,54,35,5,1
+,,,Gonzalo Jara,x,df,29,79,3,5,1
+,,Costa Rica vs Netherlands,Celso Borges,o,mf,26,73,15,1,0
+,,,Robin van Persie,o,fw,31,96,47,1,0
+,,,Bryan Ruiz,x,mf,29,70,15,2,0
+,,,Arjen Robben,o,fw,30,93,26,2,0
+,,,Gincarlo Gonzalez,o,df,26,45,2,3,0
+,,,Wesley Sneijder,o,mf,30,112,27,3,0
+,,,Christian Bolanos,o,fw,30,63,2,4,0
+,,,Dirk Kuyt,o,fw,34,124,24,4,0
+,,,Michael Umana,x,df,32,101,1,5,1
+,,Netherlands vs Argentina,Ron Vlaar,x,df,29,48,1,1,0
+,,,Lionel Messi,o,fw,27,96,42,1,0
+,,,Arjen Robben,o,fw,30,93,26,2,0
+,,,Ezequiel Garay,o,df,28,38,0,2,0
+,,,Wesley Sneijder,x,mf,30,112,27,3,0
+,,,Sergio Aguero,o,fw,26,67,21,3,0
+,,,Dirk Kuyt,o,fw,34,124,24,4,1
+,,,Maxi Rodriguez,o,fw,33,74,16,4,1
+,2018,Colombia vs England,Radamel Falcao,o,fw,32,82,30,1,0
+,,,Harry Kane,o,fw,25,34,19,1,0
+,,,Juan Cuadrado,o,mf,30,83,8,2,0
+,,,Marcus Rashford,o,fw,21,31,3,2,0
+,,,Luis Muriel,o,fw,27,43,2,3,0
+,,,Jordan Henderson,x,mf,28,54,0,3,0
+,,,Mateus Uribe,x,mf,27,13,0,4,0
+,,,Kieran Trippier,o,df,28,17,1,4,0
+,,,Carlos Bacca,x,fw,32,71,16,5,1
+,,,Eric Dier,o,df,24,36,3,5,1
+,,Denmark vs Croatia,Christian Eriksen,x,mf,26,85,23,1,0
+,,,Milan Badelj,x,mf,29,63,2,1,0
+,,,Simon Kjaer,o,df,29,86,3,2,0
+,,,Andrej Kramaric,o,fw,27,43,10,2,0
+,,,Michael Krohn-Dehli,o,mf,35,65,6,3,0
+,,,Luka Modric,o,mf,33,119,14,3,0
+,,,Lasse Schone,x,mf,32,61,3,4,0
+,,,Josip Pivaric,x,df,29,33,0,4,0
+,,,Micolai Jorgensen,x,fw,27,38,8,5,1
+,,,Ivan Rakitic,o,mf,30,104,15,5,1
+,,Spain vs Russia,Andres Iniesta,o,mf,34,137,14,1,0
+,,,Fedor Smolov,o,fw,28,43,12,1,0
+,,,Gerard Pique,o,df,31,112,5,2,0
+,,,Sergey Ignashevich,o,df,39,135,8,2,0
+,,,Koke,x,mf,26,53,0,3,0
+,,,Alexsandr Golovin,o,mf,22,24,3,3,0
+,,,Sergio Ramos,o,df,32,164,13,4,0
+,,,Denis Cheryshev,o,fw,28,26,4,4,0
+,,,Iago Aspas,x,fw,31,20,6,5,1
+,,Russia vs Croatia,Fedor Smolov,x,fw,28,43,12,1,0
+,,,Marcelo Brozovic,o,mf,26,48,6,1,0
+,,,Alan Dzagoev,o,mf,28,73,9,2,0
+,,,Mateo Kovacic,x,mf,24,52,1,2,0
+,,,Mario Fernandes,x,df,28,11,1,3,0
+,,,Luka Modric,o,mf,33,119,14,3,0
+,,,Sergey Ignashevich,o,df,39,135,8,4,0
+,,,Domagoj Vida,o,df,29,79,3,4,0
+,,,Daler Kuzyaev,o,mf,25,11,0,5,1
+,,,Ivan Rakitic,o,mf,30,104,15,5,1
+,2022,Morocco vs Spain,Abdelhamid Sabiri,o,mf,26,10,1,1,0
+,,,Pablo Sarabia,x,fw,30,32,9,1,0
+,,,Hakim Ziyech,o,fw,29,52,19,2,0
+,,,Carlos Soler,x,mf,25,18,4,2,0
+,,,Badr Benoun,x,df,29,28,3,3,0
+,,,Sergio Busquets,x,mf,34,166,2,3,0
+,,,Archraf Hakimi,o,df,24,66,8,4,1
+,,Japan vs Croatia,Takumi Minamino,x,fw,27,53,17,1,0
+,,,Nikola Vlasic,o,mf,25,53,7,1,0
+,,,Kaoru Mitoma,x,fw,25,14,5,2,0
+,,,Marcelo Brozovic,o,mf,30,96,7,2,0
+,,,Takuma Asano,o,fw,28,49,8,3,0
+,,,Marko Livaja,x,fw,29,22,4,3,0
+,,,Maya Yoshida,x,df,34,134,12,4,1
+,,,Mario Pasalic,o,mf,27,69,7,4,1
+,,Netherlands vs Argentina,Virgil van Dijk,x,df,31,62,6,1,0
+,,,Lionel Messi,o,fw,35,178,98,1,0
+,,,Steven Berghuis,x,fw,31,59,2,2,0
+,,,Leandro Paredes,o,mf,28,62,4,2,0
+,,,Teun Koopmeiners,o,mf,24,27,1,3,0
+,,,Gonzalo Montiel,o,df,25,36,0,3,0
+,,,Wout Weghorst,o,fw,30,32,5,4,0
+,,,Enzo Fernandez,x,mf,21,10,1,4,0
+,,,Luuk de Jong,o,fw,32,78,8,5,1
+,,,Lautaro Martinez,o,fw,25,52,21,5,1
+,,Croatia vs Brazil,Nikola Vlasic,o,mf,25,53,7,1,0
+,,,Rodrygo,x,fw,21,15,1,1,0
+,,,Lovro Majer,o,mf,24,22,4,2,0
+,,,Casemiro,o,mf,30,80,6,2,0
+,,,Luka Modric,o,mf,37,168,23,3,0
+,,,Pedro,o,fw,25,8,1,3,0
+,,,Mislav Orsic,o,fw,30,40,2,4,1
+,,,Marguinhos,x,df,28,99,5,4,1
+,,France vs Argentina,Kylian Mbappe,o,fw,24,70,36,1,0
+,,,Lionel Messi,o,fw,35,178,98,1,0
+,,,Kingsley Coman,x,fw,26,58,5,2,0
+,,,Paulo Dybala,o,fw,29,56,3,2,0
+,,,Aurelien Tchouameni,x,mf,22,22,2,3,0
+,,,Leandro Paredes,o,mf,28,62,4,3,0
+,,,Randal Kolo Muani,o,fw,24,9,1,4,1
+,,,Gonzalo Montiel,o,df,25,36,0,4,1
+Euro,2012,Italy vs England,Mario Balotelli,o,fw,22,14,4,1,0
+,,,Steven Gerrad,o,mf,32,97,19,1,0
+,,,Riccardo Montolivo,x,mf,27,41,1,2,0
+,,,Wayne Ronney,o,fw,27,77,29,2,0
+,,,Andrea Pirlo,o,mf,33,94,10,3,0
+,,,Ashley Young,x,df,27,28,6,3,0
+,,,Antonio Nocerino,o,mf,27,20,0,4,0
+,,,Ashley Cole,x,df,32,103,0,4,0
+,,,Alessandro Diamanti,o,mf,29,8,0,5,1
+,,Spain vs Portugal,Xabi Alonso,x,mf,31,113,15,1,0
+,,,Joao Moutinho,x,mf,26,57,2,1,0
+,,,Andres Iniesta,o,mf,28,77,11,2,0
+,,,Pepe,o,df,29,48,3,2,0
+,,,Gerard Pique,o,df,25,50,4,3,0
+,,,Nani,o,fw,26,63,13,3,0
+,,,Sergio Ramos,o,df,26,100,6,4,0
+,,,Bruno Alves,x,df,31,64,5,4,0
+,,,Cesc Fabregas,o,mf,25,79,10,5,1
+,2016,Switzerland vs Poland,Stephan Lichtsteiner,o,df,32,90,5,1,0
+,,,Robert Lewandowski,o,fw,28,85,34,1,0
+,,,Granit Xhaka,x,mf,24,50,6,2,0
+,,,Arkadiusz Milik,o,fw,22,32,11,2,0
+,,,Xherdan Shaqiri,o,mf,25,61,18,3,0
+,,,Kamil Glik,o,df,28,52,3,3,0
+,,,Fabian Schar,o,df,25,32,6,4,0
+,,,Jakub Blaszczykowski,o,fw,31,84,17,4,0
+,,,Ricardo Rodriguez,o,df,24,44,0,5,1
+,,,Grzegorz Krychowiak,o,mf,26,46,2,5,1
+,,Portugal vs Poland,Christiano Ronaldo,o,fw,31,135,62,1,0
+,,,Robert Lewandowski,o,fw,28,85,34,1,0
+,,,Renato Sanches,o,mf,19,12,1,2,0
+,,,Arkadiusz Milik,o,fw,22,32,11,2,0
+,,,Joao Moutinho,o,mf,30,101,4,3,0
+,,,Kamil Glik,o,df,28,52,3,3,0
+,,,Nani,o,fw,30,108,21,4,0
+,,,Jakub Blaszczykowski,x,fw,31,84,17,4,0
+,,,Ricardo Quaresma,o,fw,33,68,8,5,1
+,2022,Switzerland vs France,Mario Gavranovic,o,fw,32,57,15,1,0
+,,,Paul Pogba,o,mf,28,85,11,1,0
+,,,Fabian Schar,o,df,30,73,8,2,0
+,,,Olivier Giroud,o,fw,35,117,46,2,0
+,,,Manuel Akanji,o,df,26,39,0,3,0
+,,,Marcus Thuram,o,fw,24,6,0,3,0
+,,,Ruben Vargas,o,fw,23,20,2,4,0
+,,,Presnel Kimpembe,o,df,26,52,0,4,0
+,,,Admir Mehmedi,o,fw,30,85,10,5,1
+,,,Kylian Mbappe,x,fw,23,50,17,5,1
+,,Spain vs Switzerland,Sergio Busquets,x,mf,33,148,2,1,0
+,,,Mario Gavranovic,o,fw,32,57,15,1,0
+,,,Dani Olmo,o,mf,23,20,3,2,0
+,,,Fabian Schar,x,df,30,73,8,2,0
+,,,Rodri,x,mf,25,37,1,3,0
+,,,Manuel Akanji,x,df,26,39,0,3,0
+,,,Gerard Moreno,o,fw,29,19,5,4,0
+,,,Ruben Vargas,x,fw,23,20,2,4,0
+,,,Mikel Oyarzabal,o,fw,24,23,5,5,1
+,,Italy vs Spain,Manuel Locatelli,x,mf,23,20,3,5,1
+,,,Dani Olmo,x,mf,23,20,3,1,0
+,,,Andrea Belotti,o,fw,28,45,12,1,0
+,,,Gerard Moreno,o,fw,29,19,5,2,0
+,,,Leonardo Bonucci,o,df,34,129,8,2,0
+,,,Thiago Alcantara,o,mf,30,64,1,3,0
+,,,Federico Bernardeschi,o,fw,27,51,6,3,0
+,,,Alvaro Morata,x,fw,29,55,22,4,1
+,,,Jorginho,o,mf,30,41,5,4,1
+,,Italy vs England,Domenico Beradi,o,fw,27,23,5,1,0
+,,,Harry Kane,o,fw,28,69,38,1,0
+,,,Andrea Belotti,x,fw,28,45,12,2,0
+,,,Harry Maguire,o,df,28,43,4,2,0
+,,,Leonardo Bonucci,o,df,34,129,8,3,0
+,,,Marcus Rashford,x,fw,24,56,12,3,0
+,,,Federico Bernardeschi,o,fw,27,51,6,4,0
+,,,Jadon Sancho,x,fw,21,29,3,4,0
+,,,Jorginho,x,mf,30,41,5,5,1
+,,,Bukayo Saka,x,fw,20,11,1,5,1
+Asian Cup,2015,Japan vs UAE,Keisuke Honda,x,mf,29,76,27,1,0
+,,,Omar Abdulrahman,o,mf,24,24,2,1,0
+,,,Makoto Hasebe,o,df,31,97,2,2,0
+,,,Ali Mabkhout,o,fw,25,28,20,2,0
+,,,Gaku Shibasaki,o,mf,23,11,2,3,0
+,,,Khamis Esmaeel,x,mf,26,25,0,3,0
+,,,Yohei Toyoda,o,fw,30,11,1,4,0
+,,,Majed Hassan,o,mf,23,21,0,4,0
+,,,Masato Morishige,o,df,28,28,1,5,0
+,,,Habib Al Fardan,o,mf,25,26,4,5,0
+,,,Shinji Kagawa,x,mf,26,74,20,6,1
+,,,Iasmail Ahmed,o,df,32,18,1,6,1
+,,Iran vs Iraq,Ehsan Hajsafi,x,df,25,79,4,1,0
+,,,Saad Abdul Ameer,x,mf,23,52,1,1,0
+,,,Morteza Pouralignaji,o,df,23,6,1,2,0
+,,,Waleed Salem Al-Lami,o,df,23,33,1,2,0
+,,,Javad Nekounam,o,mf,35,158,36,3,0
+,,,Dhurgham Ismail,o,df,21,28,2,3,0
+,,,Seyed Jalal Hosseini,o,df,33,101,6,4,0
+,,,Ali Adnan,o,df,22,32,1,4,0
+,,,Vouria Ghafoori,o,df,28,6,0,5,0
+,,,Younis Mahmoud,o,fw,36,114,39,5,0
+,,,Alireza Jahanbaksh,o,fw,22,16,1,6,0
+,,,Yaser Kasim,o,mf,24,12,2,6,0
+,,,Andranik Teymourian,o,mf,32,93,9,7,0
+,,,Marwan Hussein,o,fw,23,14,0,7,0
+,,,Vahid Amiri,x,fw,27,5,0,8,1
+,,,Salam Shakir,o,df,29,80,4,8,1
+,2019,Australia vs Uzbekistan,Mark Milligan,o,df,34,101,6,1,0
+,,,Otabek shukurov,o,mf,23,32,2,1,0
+,,,Aziz Behich,x,df,29,46,2,2,0
+,,,Islom Tukhtakhuzhaev,x,df,30,80,1,2,0
+,,,Robbie Kruse,o,fw,31,77,5,3,0
+,,,Ikromzhon Alibaev,o,mf,25,13,0,3,0
+,,,Apostolos Giannou,o,fw,29,15,2,4,0
+,,,Marat Bikmaev,x,fw,33,44,2,4,0
+,,,Mathew Leckie,o,fw,28,64,9,5,1
+,,Vietnam vs Jordan,Ngoc Hai Que,o,df,26,28,1,1,0
+,,,Baha'a Abdulrahman,o,mf,32,74,4,1,0
+,,,Hung Dung Do,o,mf,26,13,0,2,0
+,,,Baha'a Faisal,x,fw,24,26,3,2,0
+,,,Xuan Truong Luong,o,mf,24,27,0,3,0
+,,,Ahmad Sameer,x,mf,28,36,3,3,0
+,,,Minh Vuong Tran,x,mf,24,6,0,4,0
+,,,Ahmed Ersan,o,fw,24,8,0,4,0
+,,,Tien Dung Bui,o,df,24,28,0,5,1
+,2023,Iran vs Syria,Karim Ansarifard,o,fw,34,136,30,1,0
+,,,Pablo Sabbag,o,fw,27,4,0,1,0
+,,,Ramin Rezaeian,o,df,34,79,6,2,0
+,,,Fahd Youssef,x,fw,37,41,0,2,0
+,,,Omid Ebrahimi,o,mf,37,77,0,3,0
+,,,Aiham Ousou,o,df,24,4,0,3,0
+,,,Mehdi Torabi,o,fw,30,80,7,4,0
+,,,Alaa Al-Dali,o,fw,27,21,2,4,0
+,,,Ehsan Hajsafi,o,df,34,165,7,5,1
+,,Saudi vs Korea,Mohamed Kanno,o,mf,30,57,3,1,0
+,,,Heung-min Son,o,fw,32,130,44,1,0
+,,,Saud Abdulhamid,o,df,25,50,1,2,0
+,,,Young-gwon Kim,o,df,34,137,7,2,0
+,,,Sami Al-Najei,x,mf,27,30,2,3,0
+,,,Gue-sung Cho,o,fw,26,40,9,3,0
+,,,Abdulrahman Ghareeb,x,fw,27,34,2,4,1
+,,,Hee-chan Hwang,o,fw,28,71,13,4,1
+,,Tajikistan vs UAE,Akhtam Nazarov,o,df,32,79,5,1,0
+,,,Abdulla Idrees,o,df,25,15,0,1,0
+,,,Vakhdat Khanonov,o,df,24,32,3,2,0
+,,,Caio Canedo,x,fw,34,43,9,2,0
+,,,Ekhson Pandzhshanbe,o,mf,25,50,5,3,0
+,,,Fabio Lima,o,mf,31,31,10,3,0
+,,,Rustam Soirov,o,fw,22,21,2,4,0
+,,,Ali Saleh,o,fw,24,39,3,4,0
+,,,Alisher Shukurov,o,mf,22,6,0,5,1
+,,Uzbekistan vs Qatar,Otabek shukurov,o,mf,28,72,7,1,0
+,,,Akram Afif,o,fw,28,104,33,1,0
+,,,Rustam Ashurmatov,x,df,28,46,0,2,0
+,,,Almoez Ali,x,fw,28,110,43,2,0
+,,,Shakhboz Umarov,o,fw,25,8,0,3,0
+,,,Almahdi Ali,x,df,32,63,0,3,0
+,,,Zafarmuroud Abdirakhmatov,x,df,21,4,0,4,0
+,,,Sultan Al-Brake,o,df,28,28,0,4,0
+,,,Jaloliddin Masharipov,x,fw,31,65,12,5,1
+,,,Pedro Miguel,o,df,34,91,0,5,1
+Gold Cup,2019,Mexico vs Costa Rica,Raul Jimenez,x,fw,28,98,21,1,0
+,,,Celso Borges,o,mf,31,130,22,1,0
+,,,Luis Montes,o,mf,33,34,5,2,0
+,,,Elias Aguilar,o,mf,28,27,2,2,0
+,,,Roberto Alvarado,o,fw,21,15,2,3,0
+,,,Randall Leal,x,fw,22,13,0,3,0
+,,,Jesus Gallardo,o,df,25,46,0,4,0
+,,,Oscar Duarte,o,df,30,61,2,4,0
+,,,Hector Moreno,o,df,31,123,4,5,0
+,,,Francisco Calvo,o,df,27,66,4,5,0
+,,,Carlos Salcedo,o,df,26,39,0,6,1
+,,,Keysher Fuller,x,df,25,8,1,6,1
+,2023,Canada vs USA,Steven Vitoria,x,df,36,54,5,1,0
+,,,Brandon Vazquez,x,fw,25,8,4,1,0
+,,,Liam Fraser,x,mf,25,39,0,2,0
+,,,Cade Cowell,o,fw,20,9,1,2,0
+,,,Kamal Miller,o,df,26,48,0,3,0
+,,,Gianluca Busio,o,mf,21,16,1,3,0
+,,,Jacen Russell-Rowe,o,fw,21,4,0,4,0
+,,,Jesus Ferreira,o,fw,23,29,15,4,0
+,,,Charles-Andreas Brym,x,fw,25,16,1,5,1
+,,USA vs Panama,Jesus Ferreira,x,fw,23,29,15,1,0
+,,,Fidel Escobar,o,df,28,83,3,1,0
+,,,Djordje Mihailovic,o,mf,25,17,3,2,0
+,,,Ismael Diaz,o,fw,26,38,9,2,0
+,,,Jordan Morris,o,fw,29,66,11,3,0
+,,,Cristian Martinez,x,mf,26,38,0,3,0
+,,,Julian Gressel,o,mf,30,7,0,4,0
+,,,Yoel Barcenas,o,fw,30,80,6,4,0
+,,,Matt Miazga,o,df,28,45,1,5,0
+,,,Cecilio Waterman,o,fw,32,38,8,5,0
+,,,Cristian Roldan,x,mf,28,60,0,6,1
+,,,Adalberto Carrasquilla,o,mf,25,46,1,6,1
+Copa America,2016,Colombia vs Peru,James Rodriguez,o,mf,25,48,16,1,0
+,,,Raul Ruidiaz,o,fw,26,30,3,1,0
+,,,Juan Cuadrado,o,mf,28,64,6,2,0
+,,,Renato Tapia,o,mf,21,15,0,2,0
+,,,Dayro Moreno,o,fw,31,39,3,3,0
+,,,Miguel Trauco,x,df,24,13,0,3,0
+,,,Seba Perez,o,mf,23,9,1,4,1
+,,,Christian Cueva,x,mf,25,30,3,4,1
+,,Chile vs Argentina,Arturo Vidal,x,mf,29,85,17,1,0
+,,,Lionel Messi,x,fw,29,119,55,1,0
+,,,Nicolas Castillo,o,fw,23,12,1,2,0
+,,,Javier Mascherano,o,mf,32,134,3,2,0
+,,,Charles Aranguiz,o,mf,27,56,7,3,0
+,,,Sergio Aguero,o,fw,28,93,33,3,0
+,,,Jean Beausejour,o,df,32,96,6,4,0
+,,,Lucas Biglia,x,mf,30,53,1,4,0
+,,,Francisco Silva,o,mf,30,57,0,5,1
+,2019,Uruguay vs Peru,Luis Suarez,x,fw,32,112,58,1,0
+,,,Paolo Guerrero,o,fw,35,107,39,1,0
+,,,Edinson Cavani,o,fw,32,121,48,2,0
+,,,Raul Ruidiaz,o,fw,29,66,4,2,0
+,,,Cristhian Stuani,o,fw,33,73,8,3,0
+,,,Yoshimar Yotun,o,mf,29,100,3,3,0
+,,,Rodrigo Bentancur,o,mf,22,24,0,4,0
+,,,Luis Advincula,o,df,29,97,1,4,0
+,,,Lucas Torreira,o,mf,23,20,0,5,1
+,,,Edison Flores,o,fw,25,52,13,5,1
+,,Colombia vs Chile,James Rodriguez,o,mf,28,77,22,1,0
+,,,Arturo Vidal,o,mf,32,119,27,1,0
+,,,Edwin Cardona,o,mf,27,47,5,2,0
+,,,Eduardo Vargas,o,fw,30,93,38,2,0
+,,,Juan Cuadrado,o,mf,31,93,8,3,0
+,,,Erick Pulgar,o,mf,25,34,1,3,0
+,,,Yerry Mina,o,df,25,29,6,4,0
+,,,Charles Aranguiz,o,mf,30,85,7,4,0
+,,,William Tesillo,x,df,29,19,1,5,1
+,,,Alexis Sanchez,o,fw,31,131,43,5,1
+,,Paraguay vs Brazil,Gustavo Gomez,x,df,26,46,3,1,0
+,,,Willian,o,fw,31,75,9,1,0
+,,,Miguel Almiron,o,fw,25,23,0,2,0
+,,,Marquinhos,o,df,25,61,1,2,0
+,,,Bruno Valdez,o,df,27,39,1,3,0
+,,,Philippe Countinho,o,mf,27,63,16,3,0
+,,,Rodrigo Rojas,o,mf,31,33,0,4,0
+,,,Roberto Firmino,x,fw,28,48,12,4,0
+,,,Derlis Gonzalez,x,fw,25,45,7,5,1
+,,,Gabriel Jesus,o,fw,22,36,18,5,1
+,2021,Colombia vs Uruguay,Duvan Zapata,o,fw,30,31,4,1,0
+,,,Edinson Cavani,o,fw,34,130,53,1,0
+,,,Davinson Sanchez,o,df,25,48,0,2,0
+,,,Jose Maria Gimenez,x,df,26,74,8,2,0
+,,,Yerry Mina,o,df,27,46,7,3,0
+,,,Luis Suarez,o,fw,34,124,64,3,0
+,,,Miguel Borja,o,fw,28,27,5,4,1
+,,,Matias Vina,x,df,24,16,0,4,1
+,,Paraguay vs Peru,Angel Romero,o,fw,29,39,9,1,0
+,,,Gianluca Lapadula,o,fw,31,11,4,1,0
+,,,Junior Alonso,o,df,28,50,2,2,0
+,,,Yoshimar Yotun,o,mf,31,115,5,2,0
+,,,David Martinez,x,df,23,6,0,3,0
+,,,Santiago Ormeno,x,fw,27,6,0,3,0
+,,,Braian Samudio,x,fw,26,16,1,4,0
+,,,Renato Tapia,o,mf,26,67,4,4,0
+,,,Piris da Motta,o,mf,27,14,0,5,0
+,,,Christian Cueva,x,mf,30,84,11,5,0
+,,,Alberto espinola,x,df,30,9,0,6,1
+,,,Miguel Trauco,o,df,29,68,0,6,1
+,,Colombia vs Argentina,Juan Cuadrado,o,mf,33,111,9,1,0
+,,,Lionel Messi,o,fw,34,157,76,1,0
+,,,Davinson Sanchez,x,df,25,48,0,2,0
+,,,Rodrigo de Paul,x,mf,27,30,1,2,0
+,,,Yerry Mina,x,df,27,46,7,3,0
+,,,Leandro Paredes,o,mf,27,44,4,3,0
+,,,Miguel Borja,o,fw,28,27,5,4,0
+,,,Lautaro Martinez,o,fw,24,33,14,4,0
+,,,Edwin Cardona,x,mf,29,58,6,5,1
+Africa Nations Cup,2017,Senegal vs Cameroon,Kalidou Koulibaly,o,df,26,18,0,1,0
+,,,Benjamin Moukandjo,o,fw,29,50,7,1,0
+,,,Kara Mbodj,o,df,28,40,3,2,0
+,,,Ambroise Oyongo,o,df,26,30,1,2,0
+,,,Moussa Sow,o,fw,31,47,15,3,0
+,,,Adolphe Teiku,o,df,27,14,0,3,0
+,,,Henri Saivet,o,mf,27,21,1,4,0
+,,,Jacques Zoua,o,fw,26,25,0,4,0
+,,,Sadio Mane,x,fw,25,44,12,5,1
+,,,Vincent Aboubakar,o,fw,25,64,15,5,1
+,,Egypt vs Burkina Faso,Abdallah El Said,x,mf,32,32,6,1,0
+,,,Alain Traore,o,mf,29,44,16,1,0
+,,,Ramadan Sobhi,o,fw,20,17,1,2,0
+,,,Banou Diawara,o,fw,25,15,3,2,0
+,,,Ahmed Hegazy,o,df,26,40,1,3,0
+,,,Steeve Yago,o,df,25,36,0,3,0
+,,,Mohamed Salah,o,fw,25,51,29,4,0
+,,,Herve Koffi,x,gk,21,11,0,4,0
+,,,Amr Warda,o,fw,24,12,0,5,1
+,,,Bertrand Traore,x,fw,22,40,4,5,1
+,2019,Ghana vs Tunisia,Mubarak Wakaso,o,mf,29,61,11,1,0
+,,,Naim Sliti,o,fw,27,39,10,1,0
+,,,Jordan Ayew,o,fw,28,64,15,2,0
+,,,Wahbi Khazri,o,fw,28,58,16,2,0
+,,,Caleb Ekuban,x,fw,25,7,2,3,0
+,,,Dylan Bronn,o,df,24,21,1,3,0
+,,,Lumor Agbenyenu,o,df,23,17,0,4,0
+,,,Yassine Meriah,o,df,26,44,3,4,0
+,,,Thomas Partey,o,mf,26,27,8,5,1
+,,,Ferjani Sassi,o,mf,27,62,5,5,1
+,,Madagascar vs Congo,Ibrahim Amada,o,mf,29,21,1,1,0
+,,,Marcel Tisserand,x,df,26,21,0,1,0
+,,,Romain Metanire,o,df,29,11,0,2,0
+,,,Cedric Bakambu,o,fw,28,28,11,2,0
+,,,Thomas Fontaine,o,df,28,16,0,3,0
+,,,Paul-Jose Mpoku,o,mf,27,24,6,3,0
+,,,Jerome Mombris,o,df,32,15,0,4,1
+,,,Yannick Bolasie,x,fw,30,41,9,4,1
+,,Benin vs Morocco,Olivier Verdon,o,df,24,14,0,1,0
+,,,Oussama Idrissi,o,fw,23,8,0,1,0
+,,,David Djigla,o,mf,24,25,3,2,0
+,,,Sofiane Boufal,x,fw,26,18,0,2,0
+,,,Anaane Tidjani,o,fw,22,7,0,3,0
+,,,Youssef En-Nesyri,x,fw,22,32,8,3,0
+,,,Seibou Mama,o,mf,24,23,0,4,1
+,,Algeria vs Ivory Coast,Ramy Bensebaini,o,df,24,30,2,1,0
+,,,Franck Kessie,o,mf,23,40,0,1,0
+,,,Islam Slimani,o,fw,31,74,28,2,0
+,,,Maxwel Cornet,o,fw,23,20,5,2,0
+,,,Andy Delort,o,fw,28,8,1,3,0
+,,,Wilfried Bony,x,fw,31,67,17,3,0
+,,,Adam Ounas,o,fw,23,14,3,4,0
+,,,Max Gradel,o,fw,32,79,12,4,0
+,,,Youcef Belaili,x,fw,27,14,3,5,1
+,,,Geoffroy Serey Die,x,mf,35,55,2,5,1
+,2022,Guinea vs Mali,Emilio Nsue,x,fw,33,32,14,1,0
+,,,Adama Traore,o,mf,27,40,5,1,0
+,,,Ruben Belima,o,fw,30,34,0,2,0
+,,,Moussa Djenepo,o,fw,24,28,3,2,0
+,,,Carlos Akapo,o,df,29,32,1,3,0
+,,,Massadio Haidara,x,df,30,18,1,3,0
+,,,Jannick Buyla,o,mf,24,16,1,4,0
+,,,Hamari Traore,x,df,30,45,1,4,0
+,,,Pablo Ganet,x,mf,28,36,4,5,0
+,,,El Bilal Toure,o,fw,21,12,2,5,0
+,,,Saul coco,o,df,23,19,2,6,0
+,,,Aliou Dieng,o,mf,25,22,2,6,0
+,,,Iban Salvador,o,fw,27,33,4,7,0
+,,,Mohamed Camara,o,mf,22,20,1,7,0
+,,,Santiago Eneme,o,mf,22,16,0,8,1
+,,,Falaye Sacko,x,df,27,36,1,8,1
+,,Ivory Coast vs Egypt,Nicolas Pepe,o,fw,27,41,8,1,0
+,,,Zizo,o,fw,26,24,1,1,0
+,,,Badra Ali Sangare,o,gk,36,59,0,2,0
+,,,Amr El Solia,o,mf,32,49,1,2,0
+,,,Eric Bailly,x,df,28,47,2,3,0
+,,,Omar Kamal,o,df,29,12,0,3,0
+,,,Maxwel Cornet,o,fw,26,34,6,4,0
+,,,Mohamed Abdelmonem,o,df,23,13,1,4,0
+,,,Wilfried Zaha,o,fw,30,24,4,5,1
+,,,Mohamed Salah,o,fw,30,84,45,5,1
+,,Gabon vs Burkina Faso,Denis Bouanga,o,fw,28,30,6,1,0
+,,,Issa Kabore,o,df,21,28,2,1,0
+,,,Axel Meye,o,fw,27,26,2,2,0
+,,,Soumaila Ouattara,o,df,27,26,0,2,0
+,,,Aaron Boupendza,o,fw,26,26,5,3,0
+,,,Edmond Tapsoba,o,df,23,28,0,3,0
+,,,Guelor Kanga,x,mf,32,59,2,4,0
+,,,Saidou Simpore,x,df,30,19,0,4,0
+,,,Andre Poko,o,mf,29,67,3,5,0
+,,,Steeve Yago,o,df,30,74,1,5,0
+,,,Bruno Ecuele Manga,o,df,34,84,8,6,0
+,,,Adama Guira,o,mf,34,56,0,6,0
+,,,Louis Ameka,o,mf,26,27,0,7,0
+,,,Mohamed Konate,o,fw,25,19,2,7,0
+,,,Yannis N'Gakoutou,x,df,24,5,0,8,0
+,,,Abdoul Tapsoba,x,fw,21,14,4,8,0
+,,,Lloyd Palun,x,df,34,70,0,9,1
+,,,Ismahila Ouedraogo,o,mf,23,18,0,9,1
+,,Cameroon vs Egypt,Vincent Aboubakar,o,fw,30,95,33,1,0
+,,,Zizo,o,fw,26,24,1,1,0
+,,,Harold Moukoudi,x,df,25,13,0,2,0
+,,,Mohamed Abdelmonem,o,df,23,13,1,2,0
+,,,James Lea Siliki,x,mf,26,14,0,3,0
+,,,Mohanad Lasheen,o,mf,26,13,0,3,0
+,,,Clinton Njie,x,fw,29,49,10,4,1
+,,Cameroon vs Burkina Faso,Vincent Aboubakar,o,fw,30,95,33,1,0
+,,,Issa Kabore,o,df,21,28,2,1,0
+,,,Nicolas Moumi Ngamaleu,o,fw,28,40,4,2,0
+,,,Soumaila Ouattara,o,df,27,26,0,2,0
+,,,Karl Toko Ekambi,o,fw,30,52,10,3,0
+,,,Ibrahim Blati Toure,x,mf,28,37,1,3,0
+,,,Pierre Kunde,o,mf,27,33,1,4,0
+,,,Steeve Yago,o,df,30,74,1,4,0
+,,,Ambroise Oyongo,o,df,31,58,1,5,1
+,,Senegal vs Egypt,Kalidou Koulibaly,o,df,31,63,0,1,0
+,,,Zizo,o,fw,26,24,1,1,0
+,,,Abdou Diallo,o,df,26,14,2,2,0
+,,,Mohamed Abdelmonem,x,df,23,13,1,2,0
+,,,Bouna Sarr,x,df,30,11,0,3,0
+,,,Marwan Hamdi,o,fw,26,16,1,3,0
+,,,Bamba Dieng,o,fw,22,9,1,4,0
+,,,Mohanad Lasheen,x,mf,26,13,0,4,0
+,,,Sadio Mane,o,fw,30,89,28,5,1
